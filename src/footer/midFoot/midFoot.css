@@ -1,0 +1,14 @@
+
+.list-unstyled i{
+    line-height: 27px;
+}
+.list-unstyled a{
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+    line-height: 30px;
+    text-decoration: none;
+}
+.list-unstyled a:hover{
+    color: blue;
+}

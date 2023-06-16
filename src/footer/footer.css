@@ -1,0 +1,10 @@
+.footer {
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-left: -100px;
+    background: linear-gradient(59deg, #293135, #262161);
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}

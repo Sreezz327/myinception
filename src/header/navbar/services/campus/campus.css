@@ -1,0 +1,38 @@
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.service-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.service-title ::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #428bca;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.service-title a{
+    color: #444;
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: transparent;
+}
+.description-Text-justify{
+    line-height: 24px;
+    font-size: 14px;
+    text-align: justify !important;
+    margin: 0 -80px;
+}
+.description-Text-justify p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

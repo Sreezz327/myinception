@@ -1,0 +1,11 @@
+.list-unstyled{
+    list-style: none;
+    line-height: 27px;
+    padding-top: 10px;
+}
+.head{
+    padding-top: 30px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
