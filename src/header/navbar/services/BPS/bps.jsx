@@ -1,11 +1,12 @@
 import React from "react";
 import './bps.css'
+import { FaBookOpen } from 'react-icons/fa';
 
 export default function Bps() {
   return (
     <div className="bps-container">
       <div className="icon">
-        <i className="iconfont-openbook"></i>
+        <i className="iconfont-openbook"><FaBookOpen/></i>
       </div>
       <h4 className="service-title">
         <a href="*">BPS</a>

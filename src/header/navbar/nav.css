@@ -15,3 +15,6 @@
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
+.nav-menu ul a:hover{
+    color: #3490dc;
+}
