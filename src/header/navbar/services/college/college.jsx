@@ -17,7 +17,7 @@ export default function College() {
         people to be very effective in any given situation, they need to have
         the appropriate personal skills along their knowledge and experience
         .....
-        <a href="*" data-toggle="modal">
+        <a href=" " data-toggle="modal">
           Read More
         </a>
       </p>

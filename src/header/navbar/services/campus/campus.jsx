@@ -17,7 +17,7 @@ export default function Campus() {
         place them in reputed companies. We deliver technical and soft skill
         training of exceptional quality through facilitators. Our Training
         Program was designed to aid the students to meet today's Global....
-        <a href="*" data-toggle='modal'>Read More</a>
+        <a href=" " data-toggle='modal'>Read More</a>
       </p>
     </div>
   );

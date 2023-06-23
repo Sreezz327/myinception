@@ -16,7 +16,7 @@ export default function Bps() {
         small businesses are bound to give quality service and product to
         sustain themselves in this competitive world of businesses to earn value
         on their operational assets .....
-        <a href="*" data-toggle="modal">
+        <a href=" " data-toggle="modal">
           Read More
         </a>
       </p>

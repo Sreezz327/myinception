@@ -16,7 +16,7 @@ export default function Staffing() {
         contributes to the establishment of any organization. Quality policy and
         the assurance of constant up gradation in work and service can never be
         fulfilled without effective and hard working and honest employees....
-        <a href="*" data-toggle="modal">
+        <a href=" " data-toggle="modal">
           Read More
         </a>
       </p>
