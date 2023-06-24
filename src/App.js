@@ -7,6 +7,8 @@ import JobSeekers from './header/navbar/job-seekers/jobSeekers';
 import About from './header/navbar/about/about';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Services from './header/navbar/services/services';
+import Product from './header/navbar/product/product';
+import Home from './header/navbar/home/home';
 
 
 
@@ -19,14 +21,14 @@ function App() {
     <div>
       <div className="App">
       <Topbar/>
-      <Header/>
       <BrowserRouter>
-    <Routes>
-      {/* <Route path='home' element={<Home/>}></Route> */}
-      <Route path='about' element={<About/>}></Route>
-      <Route path='services' element={<Services/>}></Route>
-      {/* <Route path='products' element={<Products/>}></Route> */}
-      <Route path='jobSeekers' element={<JobSeekers/>}></Route>
+      <Header/>
+     <Routes>
+      <Route exact path='/' element={<Home/>}></Route>
+      <Route path='/about' element={<About/>}></Route>
+      <Route path='/services' element={<Services/>}></Route>
+      <Route path='/products' element={<Product/>}></Route>
+      <Route path='/jobSeekers' element={<JobSeekers/>}></Route>
       {/* <Route path='contactUs' element={<ContactUs/>}></Route> */}
       </Routes> 
     </BrowserRouter>
