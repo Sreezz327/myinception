@@ -18,8 +18,7 @@ const Formdata = () => {
       name: "name",
       type: "text",
       placeholder: "Name",
-      errorMessage:
-        "The name filed is required!",
+      errorMessage: "The name filed is required!",
       label: "Name",
       required: true,
     },
