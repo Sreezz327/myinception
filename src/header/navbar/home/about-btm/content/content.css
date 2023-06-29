@@ -1,0 +1,11 @@
+.section-title p {
+    color: #666;
+    padding-top: 14px;
+    text-align: justify;
+}
+.contentLeft .text-justify{
+    line-height: 26px;
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+}

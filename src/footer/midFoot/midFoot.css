@@ -11,4 +11,8 @@
 }
 .list-unstyled a:hover{
     color: rgb(0, 153, 255);
+} 
+.midfoot{
+    flex: 0 0 25%;
+    max-width: 25%;
 }

@@ -1,0 +1,17 @@
+.cif{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 50px;
+} 
+.contactSec{
+   margin: 4vw 4vw;
+    text-align: center;
+}
+.contactSec h2{
+    text-align: center;
+    font-size: 32px;
+    color: #5c768d;
+    margin: 40px;
+    font-weight: 500;
+}

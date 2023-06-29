@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link to="/jobSeekers">
             <li>Job Seekers</li>
           </Link>
-          <Link to="/contact">
+          <Link to="/contactUs">
             <li>Contact Us</li>
           </Link>
         </ul>

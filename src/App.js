@@ -8,6 +8,11 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Services from "./header/navbar/services/services";
 import Product from "./header/navbar/product/product";
 import Home from "./header/navbar/home/home";
+import Contactus from "./header/navbar/contact-us/contactus";
+
+
+
+
 
 function App() {
   return (
@@ -17,12 +22,12 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route exact path="/" element={<Home />}></Route>
+            <Route index element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/services" element={<Services />}></Route>
             <Route path="/products" element={<Product />}></Route>
             <Route path="/jobSeekers" element={<JobSeekers />}></Route>
-            {/* <Route path='contactUs' element={<ContactUs/>}></Route> */}
+            <Route path="/contactUs" element={<Contactus/>}></Route>
           </Routes>
         </BrowserRouter>
         <Footer />

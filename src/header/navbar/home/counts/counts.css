@@ -1,0 +1,19 @@
+.counts {
+    background-color: #f5f9fc;
+    padding: 50px 0;
+}
+.counts h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5c768d;
+}
+.counts-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding-top: 2%;
+}

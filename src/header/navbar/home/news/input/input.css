@@ -1,0 +1,26 @@
+.in {
+    display: flex;
+    justify-content: center;
+}
+
+.in input {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+    width: 40%;
+    padding: 10px;
+}
+
+.in .btn {
+    width: 10%;
+    border-style: none;
+    height: 50px;
+    border-radius: 0;
+    background: #208def;
+    color: #fff;
+    font-weight: 600;
+}
+.btn:hover{
+    border: 2px solid rgb(26, 38, 70);
+    cursor: pointer;
+}

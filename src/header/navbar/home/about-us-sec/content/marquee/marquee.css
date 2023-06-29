@@ -1,0 +1,10 @@
+/* .scroll Marquee {
+    width ="100%" scrolldelay="300" direction="up" height="100px"  
+} */
+.scroll h2{
+    margin-left: 35px;
+    font-weight: 400;
+    margin-top: -15px;
+    font-size: 1.8rem;
+}
+

@@ -1,0 +1,57 @@
+ .cus form .row-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.contact1{
+    margin-bottom: -35px;
+}
+
+ /* input {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+    width: 25%;
+} */
+
+.contactUs form {
+    text-align: center;
+    width: 82%;
+    margin: 0% 9%;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 40px;
+}
+
+.contactUs form input {
+    outline-color: #bddadd;
+    padding: 15px;
+    margin: 10px 35px;
+    width: 43%;
+    border: 1px solid rgb(207, 207, 207)
+}
+
+.contactUs form textarea {
+    outline-color: #bddadd;
+    margin-top: 10px;
+    padding: 12px 15px;
+    width: 93%;
+    height: 60px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+
+.contactUs form button {
+    cursor: pointer;
+    background: #428bca;
+    border: 0;
+    padding: 15px 24px;
+    color: #fff;
+    transition: 0.4s;
+    width: auto;
+    margin-top: 20px;   
+}
+.contactUs form button:hover{
+    background:#5cb4dd;
+}

@@ -1,9 +1,13 @@
 .rightfoot .list-unstyled{
     display: flex;
-    justify-content: space-around;
+   
 }
 
 .rightfoot svg{
     width: 100%;
     height: 40px;
+}
+.rightfoot{
+    flex: 0 0 25%;
+    max-width: 25%;
 }
