@@ -10,8 +10,7 @@
 }
 .address{
     flex: 0 0 40%;
-    max-width: 40%;
-    margin-left: 0%;
+    max-width: 40%
 }
 .bx-map svg{
     font-size: 60px;

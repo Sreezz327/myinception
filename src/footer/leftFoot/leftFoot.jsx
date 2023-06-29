@@ -3,7 +3,7 @@ import "./leftFoot.css";
 
 export default function LeftFoot() {
   return (
-    <div className="address">
+    <div className="footerAddress">
       <h4 className="head">MyInception Tech</h4>
       <ul className="list-unstyled">
         <li>No # 4/ 18 Shiny Tech park,</li>
